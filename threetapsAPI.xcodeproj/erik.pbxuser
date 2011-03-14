@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	031D20B7132E71140001E942 /* APIUtils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 3237}}";
+			sepNavSelRange = "{7870, 0}";
+			sepNavVisRange = "{6107, 533}";
+		};
+	};
+	0356D44D132A7A8000AB769A /* ReferenceAPIClientTester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 2327}}";
+			sepNavSelRange = "{5425, 0}";
+			sepNavVisRange = "{2290, 658}";
+		};
+	};
+	0356D45C132A80B500AB769A /* AllTests.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 702}}";
+			sepNavSelRange = "{1538, 0}";
+			sepNavVisRange = "{627, 383}";
+		};
+	};
+	035EC3EA13296C4C00388515 /* threetapsAPI */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = threetapsAPI;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	035EC3F413296C5E00388515 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	035EC3F513296C5E00388515 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	035EC473132978F600388515 /* APIConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {821, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 411}";
+			sepNavWindowFrame = "{{84, 86}, {868, 1024}}";
+		};
+	};
+	035EC4751329796D00388515 /* Annotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1612}}";
+			sepNavSelRange = "{3097, 0}";
+			sepNavVisRange = "{1591, 402}";
+		};
+	};
+	035EC4761329796D00388515 /* Annotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 936}}";
+			sepNavSelRange = "{1722, 0}";
+			sepNavVisRange = "{1100, 287}";
+		};
+	};
+	035EC4E71329AC3500388515 /* APIClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1118}}";
+			sepNavSelRange = "{3103, 0}";
+			sepNavVisRange = "{2006, 784}";
+			sepNavWindowFrame = "{{61, 107}, {868, 1024}}";
+		};
+	};
+	035EC4E81329AC3500388515 /* APIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1326}}";
+			sepNavSelRange = "{562, 47}";
+			sepNavVisRange = "{311, 445}";
+		};
+	};
+	035EC4EE1329AD5B00388515 /* ReferenceAPIClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1742}}";
+			sepNavSelRange = "{3979, 0}";
+			sepNavVisRange = "{340, 387}";
+		};
+	};
+	035EC4EF1329AD5B00388515 /* ReferenceAPIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 6305}}";
+			sepNavSelRange = "{13598, 71}";
+			sepNavVisRange = "{13489, 574}";
+			sepNavWindowFrame = "{{15, 149}, {868, 1024}}";
+		};
+	};
+	039937E6132BCA1000A9ACFD /* GeocoderAPIClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 754}}";
+			sepNavSelRange = "{258, 38}";
+			sepNavVisRange = "{0, 400}";
+		};
+	};
+	039937E7132BCA1000A9ACFD /* GeocoderAPIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 3042}}";
+			sepNavSelRange = "{6653, 0}";
+			sepNavVisRange = "{2751, 518}";
+		};
+	};
+	039937FF132BCC0E00A9ACFD /* PostingAPIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 6734}}";
+			sepNavSelRange = "{16318, 0}";
+			sepNavVisRange = "{10144, 611}";
+			sepNavWindowFrame = "{{689, 66}, {868, 1024}}";
+		};
+	};
+	03993800132BCC0E00A9ACFD /* PostingAPIClientDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1950}}";
+			sepNavSelRange = "{4969, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	03993803132BCC3A00A9ACFD /* SearchAPIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {892, 6266}}";
+			sepNavSelRange = "{15374, 0}";
+			sepNavVisRange = "{10897, 453}";
+			sepNavWindowFrame = "{{15, 149}, {868, 1024}}";
+		};
+	};
+	03993806132BCC5900A9ACFD /* StatusAPIClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 2405}}";
+			sepNavSelRange = "{5419, 0}";
+			sepNavVisRange = "{2595, 482}";
+		};
+	};
+	03993807132BCC5900A9ACFD /* StatusAPIClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {892, 4511}}";
+			sepNavSelRange = "{3307, 341}";
+			sepNavVisRange = "{3171, 484}";
+		};
+	};
+	03993816132BCD0F00A9ACFD /* GeocoderAPIClientTester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1729}}";
+			sepNavSelRange = "{4421, 0}";
+			sepNavVisRange = "{2681, 514}";
+		};
+	};
+	03993823132BCF3800A9ACFD /* PostingAPIClientTester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 5291}}";
+			sepNavSelRange = "{12527, 0}";
+			sepNavVisRange = "{6758, 400}";
+		};
+	};
+	03993826132BCF4100A9ACFD /* SearchAPIClientTester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 3991}}";
+			sepNavSelRange = "{9024, 0}";
+			sepNavVisRange = "{8111, 351}";
+		};
+	};
+	03993828132BCF4100A9ACFD /* StatusAPIClientTester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1586}}";
+			sepNavSelRange = "{3445, 22}";
+			sepNavVisRange = "{3169, 479}";
+		};
+	};
+	03DEA396132D64920048BD73 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 321812708.961267;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = objc_exception_throw;
+	};
+	03E03285132A596F00D2E1CE /* APIConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 5252}}";
+			sepNavSelRange = "{12489, 0}";
+			sepNavVisRange = "{4114, 1501}";
+		};
+	};
+	03E03300132A6E5800D2E1CE /* APIData.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 962}}";
+			sepNavSelRange = "{2094, 0}";
+			sepNavVisRange = "{1769, 219}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* threetapsAPI */ = {
+		activeExec = 0;
+		executables = (
+			035EC3EA13296C4C00388515 /* threetapsAPI */,
+		);
+	};
+	2860E326111B887F00E27156 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 1339}}";
+			sepNavSelRange = "{3062, 0}";
+			sepNavVisRange = "{2659, 513}";
+			sepNavWindowFrame = "{{38, 128}, {868, 1024}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 035EC3EA13296C4C00388515 /* threetapsAPI */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* threetapsAPI */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* threetapsAPI */,
+		);
+		breakpoints = (
+			03DEA396132D64920048BD73 /* objc_exception_throw */,
+		);
+		codeSenseManager = 035EC3F513296C5E00388515 /* Code sense */;
+		executables = (
+			035EC3EA13296C4C00388515 /* threetapsAPI */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 321814711;
+			PBXWorkspaceStateSaveDate = 321814711;
+		};
+		sourceControlManager = 035EC3F413296C5E00388515 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* threetapsAPI-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 149}, {868, 1024}}";
+		};
+	};
+}

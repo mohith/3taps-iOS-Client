@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031D20B8132E71140001E942 /* APIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 031D20B7132E71140001E942 /* APIUtils.m */; };
+		0356D44E132A7A8000AB769A /* ReferenceAPIClientTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356D44D132A7A8000AB769A /* ReferenceAPIClientTester.m */; };
+		0356D45E132A80B500AB769A /* AllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356D45D132A80B500AB769A /* AllTests.m */; };
+		035EC4391329709400388515 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 035EC4381329709400388515 /* README.txt */; };
+		035EC4771329796D00388515 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4761329796D00388515 /* Annotation.m */; };
+		035EC49013297E0500388515 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC48F13297E0500388515 /* Category.m */; };
+		035EC49C1329829D00388515 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC49B1329829D00388515 /* Location.m */; };
+		035EC4A8132984A300388515 /* Posting.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4A7132984A300388515 /* Posting.m */; };
+		035EC4B0132988C600388515 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4AF132988C600388515 /* Source.m */; };
+		035EC4C713298AA600388515 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4BC13298AA600388515 /* NSObject+SBJSON.m */; };
+		035EC4C813298AA600388515 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4BE13298AA600388515 /* NSString+SBJSON.m */; };
+		035EC4C913298AA600388515 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4C013298AA600388515 /* SBJSON.m */; };
+		035EC4CA13298AA600388515 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4C213298AA600388515 /* SBJsonBase.m */; };
+		035EC4CB13298AA600388515 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4C413298AA600388515 /* SBJsonParser.m */; };
+		035EC4CC13298AA600388515 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4C613298AA600388515 /* SBJsonWriter.m */; };
+		035EC4E91329AC3500388515 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4E81329AC3500388515 /* APIClient.m */; };
+		035EC4F01329AD5B00388515 /* ReferenceAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4EF1329AD5B00388515 /* ReferenceAPIClient.m */; };
+		035EC4F91329B6FC00388515 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EC4F81329B6FC00388515 /* APIError.m */; };
+		039937E8132BCA1000A9ACFD /* GeocoderAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 039937E7132BCA1000A9ACFD /* GeocoderAPIClient.m */; };
+		03993801132BCC0E00A9ACFD /* PostingAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 039937FF132BCC0E00A9ACFD /* PostingAPIClient.m */; };
+		03993805132BCC3A00A9ACFD /* SearchAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993803132BCC3A00A9ACFD /* SearchAPIClient.m */; };
+		03993809132BCC5900A9ACFD /* StatusAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993807132BCC5900A9ACFD /* StatusAPIClient.m */; };
+		03993817132BCD0F00A9ACFD /* GeocoderAPIClientTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993816132BCD0F00A9ACFD /* GeocoderAPIClientTester.m */; };
+		03993824132BCF3800A9ACFD /* PostingAPIClientTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993823132BCF3800A9ACFD /* PostingAPIClientTester.m */; };
+		03993829132BCF4100A9ACFD /* SearchAPIClientTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993826132BCF4100A9ACFD /* SearchAPIClientTester.m */; };
+		0399382A132BCF4100A9ACFD /* StatusAPIClientTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993828132BCF4100A9ACFD /* StatusAPIClientTester.m */; };
+		03E03286132A596F00D2E1CE /* APIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E03285132A596F00D2E1CE /* APIConnection.m */; };
+		03E03301132A6E5800D2E1CE /* APIData.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E03300132A6E5800D2E1CE /* APIData.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031D20B6132E71140001E942 /* APIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUtils.h; sourceTree = "<group>"; };
+		031D20B7132E71140001E942 /* APIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIUtils.m; sourceTree = "<group>"; };
+		0356D44C132A7A8000AB769A /* ReferenceAPIClientTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAPIClientTester.h; sourceTree = "<group>"; };
+		0356D44D132A7A8000AB769A /* ReferenceAPIClientTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceAPIClientTester.m; sourceTree = "<group>"; };
+		0356D45C132A80B500AB769A /* AllTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTests.h; sourceTree = "<group>"; };
+		0356D45D132A80B500AB769A /* AllTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTests.m; sourceTree = "<group>"; };
+		035EC4381329709400388515 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		035EC473132978F600388515 /* APIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConstants.h; sourceTree = "<group>"; };
+		035EC4751329796D00388515 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		035EC4761329796D00388515 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		035EC48E13297DFF00388515 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		035EC48F13297E0500388515 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		035EC49A1329829D00388515 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		035EC49B1329829D00388515 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		035EC4A6132984A300388515 /* Posting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posting.h; sourceTree = "<group>"; };
+		035EC4A7132984A300388515 /* Posting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posting.m; sourceTree = "<group>"; };
+		035EC4AE132988C600388515 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Source.h; sourceTree = "<group>"; };
+		035EC4AF132988C600388515 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
+		035EC4BA13298AA600388515 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		035EC4BB13298AA600388515 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		035EC4BC13298AA600388515 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		035EC4BD13298AA600388515 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		035EC4BE13298AA600388515 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		035EC4BF13298AA600388515 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		035EC4C013298AA600388515 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		035EC4C113298AA600388515 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		035EC4C213298AA600388515 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		035EC4C313298AA600388515 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		035EC4C413298AA600388515 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		035EC4C513298AA600388515 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		035EC4C613298AA600388515 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		035EC4E71329AC3500388515 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		035EC4E81329AC3500388515 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		035EC4EE1329AD5B00388515 /* ReferenceAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAPIClient.h; sourceTree = "<group>"; };
+		035EC4EF1329AD5B00388515 /* ReferenceAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceAPIClient.m; sourceTree = "<group>"; };
+		035EC4F51329B1F400388515 /* ReferenceAPIClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAPIClientDelegate.h; sourceTree = "<group>"; };
+		035EC4F71329B6FC00388515 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+		035EC4F81329B6FC00388515 /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+		039937E6132BCA1000A9ACFD /* GeocoderAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocoderAPIClient.h; sourceTree = "<group>"; };
+		039937E7132BCA1000A9ACFD /* GeocoderAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocoderAPIClient.m; sourceTree = "<group>"; };
+		039937EF132BCB3C00A9ACFD /* GeocoderAPIClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocoderAPIClientDelegate.h; sourceTree = "<group>"; };
+		039937FE132BCC0E00A9ACFD /* PostingAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostingAPIClient.h; sourceTree = "<group>"; };
+		039937FF132BCC0E00A9ACFD /* PostingAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostingAPIClient.m; sourceTree = "<group>"; };
+		03993800132BCC0E00A9ACFD /* PostingAPIClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostingAPIClientDelegate.h; sourceTree = "<group>"; };
+		03993802132BCC3A00A9ACFD /* SearchAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAPIClient.h; sourceTree = "<group>"; };
+		03993803132BCC3A00A9ACFD /* SearchAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchAPIClient.m; sourceTree = "<group>"; };
+		03993804132BCC3A00A9ACFD /* SearchAPIClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAPIClientDelegate.h; sourceTree = "<group>"; };
+		03993806132BCC5900A9ACFD /* StatusAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusAPIClient.h; sourceTree = "<group>"; };
+		03993807132BCC5900A9ACFD /* StatusAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusAPIClient.m; sourceTree = "<group>"; };
+		03993808132BCC5900A9ACFD /* StatusAPIClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusAPIClientDelegate.h; sourceTree = "<group>"; };
+		03993815132BCD0F00A9ACFD /* GeocoderAPIClientTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocoderAPIClientTester.h; sourceTree = "<group>"; };
+		03993816132BCD0F00A9ACFD /* GeocoderAPIClientTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocoderAPIClientTester.m; sourceTree = "<group>"; };
+		03993822132BCF3800A9ACFD /* PostingAPIClientTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostingAPIClientTester.h; sourceTree = "<group>"; };
+		03993823132BCF3800A9ACFD /* PostingAPIClientTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostingAPIClientTester.m; sourceTree = "<group>"; };
+		03993825132BCF4100A9ACFD /* SearchAPIClientTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAPIClientTester.h; sourceTree = "<group>"; };
+		03993826132BCF4100A9ACFD /* SearchAPIClientTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchAPIClientTester.m; sourceTree = "<group>"; };
+		03993827132BCF4100A9ACFD /* StatusAPIClientTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusAPIClientTester.h; sourceTree = "<group>"; };
+		03993828132BCF4100A9ACFD /* StatusAPIClientTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusAPIClientTester.m; sourceTree = "<group>"; };
+		03E03284132A596F00D2E1CE /* APIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnection.h; sourceTree = "<group>"; };
+		03E03285132A596F00D2E1CE /* APIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIConnection.m; sourceTree = "<group>"; };
+		03E032FF132A6E5800D2E1CE /* APIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIData.h; sourceTree = "<group>"; };
+		03E03300132A6E5800D2E1CE /* APIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIData.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* threetapsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threetapsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* threetapsAPI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threetapsAPI_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* threetapsAPI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "threetapsAPI-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035EC4371329708200388515 /* threetapsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4681329776000388515 /* base */,
+				035EC46F1329778D00388515 /* clients */,
+				035EC4701329779600388515 /* models */,
+				035EC471132977E000388515 /* tests */,
+			);
+			path = threetapsAPI;
+			sourceTree = "<group>";
+		};
+		035EC4681329776000388515 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4E71329AC3500388515 /* APIClient.h */,
+				035EC4E81329AC3500388515 /* APIClient.m */,
+				03E03284132A596F00D2E1CE /* APIConnection.h */,
+				03E03285132A596F00D2E1CE /* APIConnection.m */,
+				035EC473132978F600388515 /* APIConstants.h */,
+				03E032FF132A6E5800D2E1CE /* APIData.h */,
+				03E03300132A6E5800D2E1CE /* APIData.m */,
+				035EC4F71329B6FC00388515 /* APIError.h */,
+				035EC4F81329B6FC00388515 /* APIError.m */,
+				031D20B6132E71140001E942 /* APIUtils.h */,
+				031D20B7132E71140001E942 /* APIUtils.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		035EC46F1329778D00388515 /* clients */ = {
+			isa = PBXGroup;
+			children = (
+				039937E6132BCA1000A9ACFD /* GeocoderAPIClient.h */,
+				039937E7132BCA1000A9ACFD /* GeocoderAPIClient.m */,
+				039937EF132BCB3C00A9ACFD /* GeocoderAPIClientDelegate.h */,
+				039937FE132BCC0E00A9ACFD /* PostingAPIClient.h */,
+				039937FF132BCC0E00A9ACFD /* PostingAPIClient.m */,
+				03993800132BCC0E00A9ACFD /* PostingAPIClientDelegate.h */,
+				035EC4EE1329AD5B00388515 /* ReferenceAPIClient.h */,
+				035EC4EF1329AD5B00388515 /* ReferenceAPIClient.m */,
+				035EC4F51329B1F400388515 /* ReferenceAPIClientDelegate.h */,
+				03993802132BCC3A00A9ACFD /* SearchAPIClient.h */,
+				03993803132BCC3A00A9ACFD /* SearchAPIClient.m */,
+				03993804132BCC3A00A9ACFD /* SearchAPIClientDelegate.h */,
+				03993806132BCC5900A9ACFD /* StatusAPIClient.h */,
+				03993807132BCC5900A9ACFD /* StatusAPIClient.m */,
+				03993808132BCC5900A9ACFD /* StatusAPIClientDelegate.h */,
+			);
+			path = clients;
+			sourceTree = "<group>";
+		};
+		035EC4701329779600388515 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4751329796D00388515 /* Annotation.h */,
+				035EC4761329796D00388515 /* Annotation.m */,
+				035EC48E13297DFF00388515 /* Category.h */,
+				035EC48F13297E0500388515 /* Category.m */,
+				035EC49A1329829D00388515 /* Location.h */,
+				035EC49B1329829D00388515 /* Location.m */,
+				035EC4A6132984A300388515 /* Posting.h */,
+				035EC4A7132984A300388515 /* Posting.m */,
+				035EC4AE132988C600388515 /* Source.h */,
+				035EC4AF132988C600388515 /* Source.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		035EC471132977E000388515 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				0356D45C132A80B500AB769A /* AllTests.h */,
+				0356D45D132A80B500AB769A /* AllTests.m */,
+				03993815132BCD0F00A9ACFD /* GeocoderAPIClientTester.h */,
+				03993816132BCD0F00A9ACFD /* GeocoderAPIClientTester.m */,
+				03993822132BCF3800A9ACFD /* PostingAPIClientTester.h */,
+				03993823132BCF3800A9ACFD /* PostingAPIClientTester.m */,
+				0356D44C132A7A8000AB769A /* ReferenceAPIClientTester.h */,
+				0356D44D132A7A8000AB769A /* ReferenceAPIClientTester.m */,
+				03993825132BCF4100A9ACFD /* SearchAPIClientTester.h */,
+				03993826132BCF4100A9ACFD /* SearchAPIClientTester.m */,
+				03993827132BCF4100A9ACFD /* StatusAPIClientTester.h */,
+				03993828132BCF4100A9ACFD /* StatusAPIClientTester.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		035EC4B813298AA600388515 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4B913298AA600388515 /* JSON */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		035EC4B913298AA600388515 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4BA13298AA600388515 /* JSON.h */,
+				035EC4BB13298AA600388515 /* NSObject+SBJSON.h */,
+				035EC4BC13298AA600388515 /* NSObject+SBJSON.m */,
+				035EC4BD13298AA600388515 /* NSString+SBJSON.h */,
+				035EC4BE13298AA600388515 /* NSString+SBJSON.m */,
+				035EC4BF13298AA600388515 /* SBJSON.h */,
+				035EC4C013298AA600388515 /* SBJSON.m */,
+				035EC4C113298AA600388515 /* SBJsonBase.h */,
+				035EC4C213298AA600388515 /* SBJsonBase.m */,
+				035EC4C313298AA600388515 /* SBJsonParser.h */,
+				035EC4C413298AA600388515 /* SBJsonParser.m */,
+				035EC4C513298AA600388515 /* SBJsonWriter.h */,
+				035EC4C613298AA600388515 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* threetapsAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate.h */,
+				2860E326111B887F00E27156 /* AppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				035EC4381329709400388515 /* README.txt */,
+				8D1107310486CEB800E47090 /* threetapsAPI-Info.plist */,
+				32CA4F630368D1EE00C91783 /* threetapsAPI_Prefix.pch */,
+				28EEBF621118D79A00187D67 /* app */,
+				035EC4371329708200388515 /* threetapsAPI */,
+				035EC4B813298AA600388515 /* libraries */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* threetapsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "threetapsAPI" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threetapsAPI;
+			productName = iOSAPIWrapper;
+			productReference = 1D6058910D05DD3D006BFB54 /* threetapsAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "threetapsAPI" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* threetapsAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035EC4391329709400388515 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate.m in Sources */,
+				035EC4771329796D00388515 /* Annotation.m in Sources */,
+				035EC49013297E0500388515 /* Category.m in Sources */,
+				035EC49C1329829D00388515 /* Location.m in Sources */,
+				035EC4A8132984A300388515 /* Posting.m in Sources */,
+				035EC4B0132988C600388515 /* Source.m in Sources */,
+				035EC4C713298AA600388515 /* NSObject+SBJSON.m in Sources */,
+				035EC4C813298AA600388515 /* NSString+SBJSON.m in Sources */,
+				035EC4C913298AA600388515 /* SBJSON.m in Sources */,
+				035EC4CA13298AA600388515 /* SBJsonBase.m in Sources */,
+				035EC4CB13298AA600388515 /* SBJsonParser.m in Sources */,
+				035EC4CC13298AA600388515 /* SBJsonWriter.m in Sources */,
+				035EC4E91329AC3500388515 /* APIClient.m in Sources */,
+				035EC4F01329AD5B00388515 /* ReferenceAPIClient.m in Sources */,
+				035EC4F91329B6FC00388515 /* APIError.m in Sources */,
+				03E03286132A596F00D2E1CE /* APIConnection.m in Sources */,
+				03E03301132A6E5800D2E1CE /* APIData.m in Sources */,
+				0356D44E132A7A8000AB769A /* ReferenceAPIClientTester.m in Sources */,
+				0356D45E132A80B500AB769A /* AllTests.m in Sources */,
+				039937E8132BCA1000A9ACFD /* GeocoderAPIClient.m in Sources */,
+				03993801132BCC0E00A9ACFD /* PostingAPIClient.m in Sources */,
+				03993805132BCC3A00A9ACFD /* SearchAPIClient.m in Sources */,
+				03993809132BCC5900A9ACFD /* StatusAPIClient.m in Sources */,
+				03993817132BCD0F00A9ACFD /* GeocoderAPIClientTester.m in Sources */,
+				03993824132BCF3800A9ACFD /* PostingAPIClientTester.m in Sources */,
+				03993829132BCF4100A9ACFD /* SearchAPIClientTester.m in Sources */,
+				0399382A132BCF4100A9ACFD /* StatusAPIClientTester.m in Sources */,
+				031D20B8132E71140001E942 /* APIUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = threetapsAPI_Prefix.pch;
+				INFOPLIST_FILE = "threetapsAPI-Info.plist";
+				PRODUCT_NAME = threetapsAPI;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOSAPIWrapper_Prefix.pch;
+				INFOPLIST_FILE = "iOSAPIWrapper-Info.plist";
+				PRODUCT_NAME = iOSAPIWrapper;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "threetapsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "threetapsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
