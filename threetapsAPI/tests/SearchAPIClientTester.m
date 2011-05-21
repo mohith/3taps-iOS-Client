@@ -46,14 +46,6 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //
-// testBestMatch
-//
-//     Test the [SearchAPIClient bestMatch:] method.
-
-- (void) testBestMatch;
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//
 // testsFinished
 //
 //     Tell the rest of the testing framework that our unit tests have finished.
@@ -184,7 +176,7 @@
 - (void) countReceived:(int)numPosts {
 
   NSLog(@"[SearchAPIClient count:] successfully finished, total = %d", numPosts);
-  [self testBestMatch];
+  [self testsFinished];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -192,25 +184,9 @@
 - (void) countFailedWithError:(APIError*)error {
 
   NSLog(@"[SearchAPIClient count:] failed: %@", [error description]);
-  [self testBestMatch];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void) gotBestMatchCategory:(NSString*)categoryCode numPosts:(int)numPosts {
-
-  NSLog(@"[SearchAPIClient bestMatch:] successfully finished, category = %@, numPosts = %d",
-        categoryCode, numPosts);
   [self testsFinished];
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void) bestMatchFailedWithError:(APIError*)error {
-
-  NSLog(@"[SearchAPIClient bestMatch:] failed: %@", [error description]);
-  [self testsFinished];
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                               //
@@ -273,15 +249,6 @@
 
   [self._client count:query];
   [query release];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void) testBestMatch {
-
-  NSLog(@"Testing [SearchAPIClient bestMatch:] API call...");
-
-  [self._client bestMatch:[NSArray arrayWithObject:@"iPad"]];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

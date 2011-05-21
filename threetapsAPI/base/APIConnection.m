@@ -73,6 +73,7 @@ static NSCountedSet* _activeConnections = nil;
 @synthesize _responseData;
 @synthesize _curError;
 @synthesize _curConnection;
+@synthesize _authID;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -88,7 +89,8 @@ static NSCountedSet* _activeConnections = nil;
   self._mimeType       = nil;
   self._responseData   = [[NSMutableData alloc] init];
   self._curError       = nil;
-  self._curConnection  = nil;
+  self._curConnection  = nil;   
+  self._authID         = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"3taps API Key"];
 
   [self._responseData release]; // Don't over-retain our instance vars.
 
@@ -207,7 +209,16 @@ static NSCountedSet* _activeConnections = nil;
   NSAssert(self._reqURL != nil, @"APIConnection: URL not specified!");
   NSAssert(self._target != nil, @"APIConnection: Target not specified!");
 
-  NSURL* url = [NSURL URLWithString:self._reqURL];
+  // Figure out if we need to add a ? before authID
+  // TODO: This feels hacky --DF
+  NSString* question = @"";
+  NSRange range = [self._reqURL rangeOfString:@"?"];
+  if(range.location == NSNotFound) {
+    question = @"?";
+  }
+
+  NSString* urlString = [[NSString alloc] initWithFormat:@"%@%@&authID=%@", self._reqURL, question, self._authID];
+  NSURL* url = [NSURL URLWithString:urlString];
   NSMutableURLRequest* request = [NSMutableURLRequest
                                         requestWithURL:url
                                         cachePolicy:NSURLRequestUseProtocolCachePolicy

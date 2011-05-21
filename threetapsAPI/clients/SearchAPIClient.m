@@ -52,15 +52,6 @@
 
 - (void) countFinishedWith:(APIConnection*)connection;
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// bestMatchFinishedWith:
-//
-//    Respond to our 'bestMatch' API call finishing or failing.
-
-- (void) bestMatchFinishedWith:(APIConnection*)connection;
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
 //
 // queryToDictionary:
 //
@@ -170,24 +161,6 @@
   [connection setFormValues:args];
   [connection setTarget:self
            withSelector:@selector(countFinishedWith:)];
-  [connection start];
-  [self connectionStarted:connection];
-
-  [connection release];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void) bestMatch:(NSArray*)keywords {
-
-  NSDictionary* args = [NSDictionary dictionaryWithObject:[keywords componentsJoinedByString:@","]
-                                                   forKey:@"keywords"];
-
-  APIConnection* connection = [[APIConnection alloc] init];
-  [connection setURL:[self getURL:@"search/bestMatch"]];
-  [connection setFormValues:args];
-  [connection setTarget:self
-           withSelector:@selector(bestMatchFinishedWith:)];
   [connection start];
   [self connectionStarted:connection];
 
@@ -310,29 +283,6 @@
   int           numPosts = [[response objectForKey:@"count"] intValue];
 
   [self._delegate countReceived:numPosts];
-
-  [results release];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void) bestMatchFinishedWith:(APIConnection*)connection {
-
-
-  [self connectionStopped:connection];
-
-  APIData* results = [[APIData alloc] initWithConnection:connection];
-  if (!results.valid) {
-    [self._delegate bestMatchFailedWithError:results.error];
-    [results release];
-    return;
-  }
-
-  NSDictionary* response = (NSDictionary*)results.data;
-  NSString*     categoryCode = [response objectForKey:@"category"];
-  int           numPosts     = [[response objectForKey:@"numResults"] intValue];
-
-  [self._delegate gotBestMatchCategory:categoryCode numPosts:numPosts];
 
   [results release];
 }

@@ -1,5 +1,4 @@
-About the threetapsAPI Library
-------------------------------
+# 3taps API iOS Wrapper
 
 The treetapsAPI directory contains the iOS library for the 3taps API wrappers.
 At present, this library is released in source-code format; simply copy the
@@ -7,9 +6,13 @@ entire contents of the "threetapAPI" directory into your source tree and add it
 to your XCode project.  You can then '#include' the necessary interface files
 as you need them.
 
+##Configuration
 
-Pre-requisites
---------------
+You will need to obtain an API key from http://3taps.com/developers, and configure
+your application to use your key by setting it as the value in '3taps API Key' in 
+the main plist bundle.
+
+##Pre-requisites
 
 The threetapsAPI library requires the JSON parsing library written by Stig
 Brautaset.  Information about this library can be found at:
@@ -17,8 +20,7 @@ Brautaset.  Information about this library can be found at:
     http://code.google.com/p/json-framework
 
 
-Asynchronous API Calls
-----------------------
+##Asynchronous API Calls
 
 All of the 3taps API calls are executed asynchronously.  That is, you ask the
 3taps API wrapper to make a call to the 3taps server, and you separately
@@ -33,8 +35,7 @@ make.  The interface for each API client describes the delegate calls which
 can be made in response to that call.
 
 
-Unit Testing
-------------
+##Unit Testing
 
 Because of the nature of the 3taps iOS API wrappers, it is not possible to use
 a standard unit-testing framework for testing the API wrapper classes.
@@ -52,8 +53,7 @@ All the unit tests write their output to the console log, so you can see the
 results appear in the XCode console window.
 
 
-License
--------
+##License
 
 The threetapsAPI library and related files, including the example iPhone
 application and the unit tests, are all copyright (c) 2011 3taps inc. 
@@ -68,4 +68,5 @@ Unless required by applicable law or agreed to in writing, software distributed
 under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
 CONDITIONS OF ANY KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations under the License.
+
 

@@ -52,6 +52,7 @@ typedef enum {
   NSMutableData*           _responseData;   // Holds the data as we download it from the server.
   APIError*                _curError;       // The returned error object, if an error occurred.
   NSURLConnection*         _curConnection;  // Our URL connection object.
+  NSString*                _authID;         // The authID to use, set in plist.
 }
 
 @property (nonatomic, assign) APIConnectionStatus      _status;
@@ -65,6 +66,7 @@ typedef enum {
 @property (nonatomic, retain) NSMutableData*           _responseData;
 @property (nonatomic, retain) APIError*                _curError;
 @property (nonatomic, retain) NSURLConnection*         _curConnection;
+@property (nonatomic, retain) NSString*                _authID;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //

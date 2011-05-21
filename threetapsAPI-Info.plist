@@ -35,5 +35,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>3taps API Key</key>
+	<string>jmrfhu59cnmtnzusshd62pbg</string>
 </dict>
 </plist>

@@ -143,23 +143,6 @@
 - (void) count:(SearchQuery*)query;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// bestMatch:
-//
-//     Calculate the 3taps category that best matches the given set of keywords.
-//
-//     'keywords' should be an NSArray of strings holding keywords that we want to find the best
-//     match for.  We ask the 3taps server to identify the category that best matches those
-//     keywords.
-//
-//     Upon completion, one of the following delegate methods will be called, as appropriate:
-//
-//         gotBestMatchCategory:numPosts:
-//         bestMatchFailedWithError:
-
-- (void) bestMatch:(NSArray*)keywords;
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
 
 @end
 
