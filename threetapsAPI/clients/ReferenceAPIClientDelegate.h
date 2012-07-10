@@ -70,7 +70,7 @@
 //     'category' will be the Category object containing the details of the requested category.
 //     The category will include annotations.
 
-- (void) gotCategory:(Category*)category;
+- (void) gotCategory:(Category_3Taps*)category;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //

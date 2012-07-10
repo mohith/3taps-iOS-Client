@@ -32,7 +32,7 @@
 //
 //     You can retrieve and change these attributes directly as required.
 
-@interface Category : NSObject {
+@interface Category_3Taps : NSObject {
   @public
   NSString* code;
   NSString* group;

@@ -92,7 +92,7 @@
 //
 //     We convert 'data' into a Category object, which we then return to the caller.
 
-- (Category*) parseCategory:(NSDictionary*)data;
+- (Category_3Taps *) parseCategory:(NSDictionary*)data;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //
@@ -280,7 +280,7 @@
 
   NSMutableArray* categories = [[NSMutableArray alloc] init];
   for (NSDictionary* data in (NSArray*)results.data) {
-    Category* category = [self parseCategory:data];
+    Category_3Taps * category = [self parseCategory:data];
     [categories addObject:category];
   }
 
@@ -305,7 +305,7 @@
 
   NSMutableArray* categories = [[NSMutableArray alloc] init];
   for (NSDictionary* data in (NSArray*)results.data) {
-    Category* category = [self parseCategory:data];
+    Category_3Taps * category = [self parseCategory:data];
     [categories addObject:category];
   }
 
@@ -328,7 +328,7 @@
     return;
   }
 
-  Category* category = nil;
+  Category_3Taps * category = nil;
   for (NSDictionary* data in (NSArray*)results.data) {
     category = [self parseCategory:data];
     break;
@@ -391,9 +391,9 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (Category*) parseCategory:(NSDictionary*)data {
+- (Category_3Taps *) parseCategory:(NSDictionary*)data {
 
-  Category* category = [[Category alloc] init];
+  Category_3Taps * category = [[Category_3Taps alloc] init];
 
   category.code  = [data objectForKey:@"code"];
   category.group = [data objectForKey:@"group"];

@@ -8,7 +8,7 @@
 
 // ################################################################################################
 
-@implementation Category
+@implementation Category_3Taps
 
 @synthesize code;
 @synthesize group;

@@ -181,7 +181,7 @@
     posting.currency = [postDict objectForKey:@"currency"];
   }
 
-  if ([postDict objectForKey:@"images"] != nil) {
+  if ([postDict objectForKey:@"images"] != nil && [postDict objectForKey:@"images"]!= [NSNull null]) {
     posting.images = [postDict objectForKey:@"images"];
   }
 
