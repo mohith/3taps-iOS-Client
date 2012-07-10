@@ -165,7 +165,7 @@ static NSCountedSet* _activeConnections = nil;
   NSString* encodedRequest = [encodedValues componentsJoinedByString:@"&"];
   [encodedValues release];
 
-  NSLog(@"sending request '%@' to %@", encodedRequest, self._reqURL);
+  //NSLog(@"sending request '%@' to %@", encodedRequest, self._reqURL);
 
   [self setRequestType:APIConnectionRequestTypePOST];
   [self setContentType:@"application/x-www-form-urlencoded"];

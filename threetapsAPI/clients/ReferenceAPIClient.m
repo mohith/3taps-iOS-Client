@@ -399,9 +399,6 @@
   category.group = [data objectForKey:@"group"];
   category.name  = [data objectForKey:@"category"];
 
-    if (!category.name) {
-         NSLog(@"Parsing Category : %@",data);
-    }
   if ([data objectForKey:@"annotations"] != nil) {
     NSMutableArray* annotations = [[NSMutableArray alloc] init];
     for (NSDictionary* annotationData in [data objectForKey:@"annotations"]) {
