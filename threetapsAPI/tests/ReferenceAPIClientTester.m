@@ -154,7 +154,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (void) gotCategory:(Category_3Taps *)category {
+- (void) gotCategory:(TTCategory *)category {
   
   NSLog(@"[ReferenceAPIClient getCategory:] successfully finished");
 

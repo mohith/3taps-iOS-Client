@@ -7,7 +7,7 @@
 #import <UIKit/UIKit.h>
 
 #import "APIError.h"
-#import "Category.h"
+#import "TTCategory.h"
 
 // ################################################################################################
 //
@@ -70,7 +70,7 @@
 //     'category' will be the Category object containing the details of the requested category.
 //     The category will include annotations.
 
-- (void) gotCategory:(Category_3Taps*)category;
+- (void) gotCategory:(TTCategory*)category;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //

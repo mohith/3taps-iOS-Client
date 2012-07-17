@@ -11,7 +11,7 @@
 #import "APIError.h"
 
 #import "Annotation.h"
-#import "Category.h"
+#import "TTCategory.h"
 #import "Location.h"
 #import "Source.h"
 
@@ -92,7 +92,7 @@
 //
 //     We convert 'data' into a Category object, which we then return to the caller.
 
-- (Category_3Taps *) parseCategory:(NSDictionary*)data;
+- (TTCategory *) parseCategory:(NSDictionary*)data;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //
@@ -280,7 +280,7 @@
 
   NSMutableArray* categories = [[NSMutableArray alloc] init];
   for (NSDictionary* data in (NSArray*)results.data) {
-    Category_3Taps * category = [self parseCategory:data];
+    TTCategory * category = [self parseCategory:data];
     [categories addObject:category];
   }
 
@@ -305,7 +305,7 @@
 
   NSMutableArray* categories = [[NSMutableArray alloc] init];
   for (NSDictionary* data in (NSArray*)results.data) {
-    Category_3Taps * category = [self parseCategory:data];
+    TTCategory * category = [self parseCategory:data];
     [categories addObject:category];
   }
 
@@ -328,7 +328,7 @@
     return;
   }
 
-  Category_3Taps * category = nil;
+  TTCategory * category = nil;
   for (NSDictionary* data in (NSArray*)results.data) {
     category = [self parseCategory:data];
     break;
@@ -391,9 +391,9 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (Category_3Taps *) parseCategory:(NSDictionary*)data {
+- (TTCategory *) parseCategory:(NSDictionary*)data {
 
-  Category_3Taps * category = [[Category_3Taps alloc] init];
+  TTCategory * category = [[TTCategory alloc] init];
 
   category.code  = [data objectForKey:@"code"];
   category.group = [data objectForKey:@"group"];

@@ -4,11 +4,11 @@
 //  Created by Erik Westra on 11/03/11.
 //  Copyright (c) 2011, 3taps inc.  All rights reserved.
 
-#import "Category.h"
+#import "TTCategory.h"
 
 // ################################################################################################
 
-@implementation Category_3Taps
+@implementation TTCategory
 
 @synthesize code;
 @synthesize group;
